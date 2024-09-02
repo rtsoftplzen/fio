@@ -20,7 +20,7 @@ use Contributte\Fio\Http\Request;
 class PaymentService extends Service
 {
 
-	private const URL = 'https://www.fio.cz/ib_api/rest/import/';
+    private const URL = 'https://fioapi.fio.cz/v1/rest/import/';
 
 	/** @var TransactionList */
 	private $transactionList;
